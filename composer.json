@@ -1,5 +1,7 @@
 {
   "name": "redfard/email-blacklist",
+  "type": "library",
+  "license": "MIT",
   "authors": [
     {
       "name": "Alexey",
