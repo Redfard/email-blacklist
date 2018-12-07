@@ -1,0 +1,30 @@
+{
+  "name": "redfard/email-blacklist",
+  "authors": [
+    {
+      "name": "Alexey",
+      "email": "redspector@yandex.ru"
+    }
+  ],
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Redfard\\EmailBlacklist\\EmailBlackListServiceProvider"
+      ],
+      "aliases": {
+        "EmailBlacklist": "Redfard\\EmailBlacklist\\EmailBlacklistFacade"
+      }
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "Redfard\\EmailBlacklist\\": "src/",
+      "Redfard\\EmailBlacklist\\Test\\": "tests/"
+    }
+  },
+  "minimum-stability": "dev",
+  "require-dev": {
+    "orchestra/testbench": "^3.7",
+    "phpunit/phpunit": "^7.0"
+  }
+}
