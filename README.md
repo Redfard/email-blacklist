@@ -1,6 +1,6 @@
 # Email blacklist
 
-###Установка
+### Установка
 
 ```sh
 composer config repositories.email-blacklist vcs https://github.com/Redfard/email-blacklist
@@ -8,7 +8,7 @@ composer require Redfard/email-blacklist
 php artisan migrate
 ```
 
-###Методы
+### Методы
 
 Вызов методов доступен через фасад EmailBlacklist.
 
