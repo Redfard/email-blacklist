@@ -1,5 +1,8 @@
 # Email blacklist
 
+### Задание
+https://docs.google.com/document/d/1uVPFi1N27lr0n6iaFJLsbsldpFu-dPTsJN6UyYg0Xrc/edit?usp=sharing
+
 ### Установка
 
 ```sh
